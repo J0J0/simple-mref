@@ -1,0 +1,9 @@
+post-processing/70-reorder-names.sh
+In case of family names like "Mac Lane", a pair of {} should be put around them ...
+
+post-processing/???
+Some scripts might hiccup on @COMMENT{ ... } "entries", i.e. official bibtex comments,
+and/or on stray lines outside of entries.
+
+post-processing/doi and url
+In case of escaped underscores (\_) in the doi (but not in the url), the url is not dropped
